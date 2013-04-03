@@ -65,6 +65,10 @@ class Storm_Demandforce_Embeds {
 		ob_start();
 		?>
 			<link type="text/css" rel="stylesheet" href="//www.demandforce.com/widget/css/widget.css" />
+			<style>
+				.d3cp_df_seal_widget { display:none !important; }
+				#d3cp_form_appointment { min-height: 1100px; } /* Pitcrew specific */
+			</style>
 
 			<script type="text/javascript">
 				d3cp_bid = '<?php echo $bid ?>';
